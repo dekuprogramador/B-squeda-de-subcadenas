@@ -25,7 +25,7 @@ public class Buscador {
         }
         
         for(int i=0; i<indexsubcadena.size(); i++){
-            System.out.print(""+indexsubcadena.get(i)+" a "+(indexsubcadena.get(i)+patronusuario.length())+", ");
+            System.out.print(""+indexsubcadena.get(i)+" a "+(indexsubcadena.get(i)+(patronusuario.length()-1))+", ");
         }
 
         System.out.println("\n'"+patronusuario+"' se encontro "+numcomparaciones+" veces");
